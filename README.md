@@ -95,8 +95,6 @@
         <stop offset="100%" stop-color="blue"/>
       </linearGradient>
     </defs>
-
-    <!-- Rectangle outline with gradient border -->
     <rect x="10" y="10" width="180" height="80" fill="none" stroke="url(#borderGradient)" stroke-width="2" rx="10" ry="10"/>
   </svg>
 </svg>
