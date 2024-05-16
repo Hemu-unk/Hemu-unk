@@ -1,6 +1,4 @@
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
-</svg>
+<!-- Embedding SVG -->
 <svg width="200%" height="200%" xmlns="http://www.w3.org/2000/svg">
   <!-- Define the clipping path for rain effect area -->
   <defs>
@@ -10,9 +8,10 @@
   </defs>
 
   <!-- Define the gradient for the raindrops -->
+  <defs>
     <linearGradient id="rainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#c300ff"/>
-        <stop offset="100%" stop-color="blue"/>
+      <stop offset="100%" stop-color="blue"/>
     </linearGradient>
   </defs>
   
